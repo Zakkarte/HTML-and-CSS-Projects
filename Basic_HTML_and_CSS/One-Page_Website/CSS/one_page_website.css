@@ -1,0 +1,34 @@
+.main_text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: white;
+    border: 2px dashed red;
+    margin: 300px;
+}
+.inputs {
+    border: 2px solid red;
+    border-radius: 2%;
+    margin: 5%;
+    box-sizing: border-box;
+    width: auto;
+}
+.inputs_text {
+    text-align: center;
+    width: auto;
+}
+img {
+    width: 300px;
+    }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+body {
+    background: url(../Images/futurama_img1.png) no-repeat;
+}
+h1 {
+    background-color: red;
+    border: 2px solid blue;
+}

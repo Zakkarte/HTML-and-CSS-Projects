@@ -2,23 +2,10 @@
 <html = lang="en"> 
 	<head>
 		<title> Futurama Fan Site </title>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
 	</head>	<meta charset="utf=8">
 	<body>
-		<section>
-		<style>
-		img {
-		width: 300px;
-		}
-		.center {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-		}
-		</style>
-		
-		
-		<img src="./Images/futurama_img1.png">
+	
 			<!-- NAV -->
 		<div>
 			<div>
@@ -31,7 +18,7 @@
 			</div>
 		</div>
 			<!--END NAV-->
-		</section>
+		
 	
 		<header>
 			<!--HEADER FOR MAIN BODY OF TEXT -->
@@ -46,7 +33,7 @@
 			<!--END OF HEADER FOR MAIN BODY TEXT -->
 			
 			<!--MAIN BODY OF TEXT -->
-			<div>
+			<div class="main_text">
 				<span style="text-align:center;">
 					<p> 
 					<br>
@@ -133,13 +120,16 @@
 		
 		
 	<!--FORM-->	
-		<div id="contact">
-			<form action="" method="post">
-				<br><br> First name: <input type="text" name="First_Name"> Last name: <input type="text" name="Last_Name">
-				<br><br> Email address: <input type="text" name="Email"> 
-				<br><br> What was your favorite episode: <input type="text" name="Fav_episode">
-				<input type="submit" value="Submit"
-			</form>
+		<div class="inputs" id="contact">
+			<div class="inputs_text">
+				<form action="" method="post">
+					<br><br> First name: <input type="text" name="First_Name"> 
+					<br><br> Last name: <input type="text" name="Last_Name">
+					<br><br> Email address: <input type="text" name="Email"> 
+					<br><br> What was your favorite episode: <input type="text" name="Fav_episode">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
 		</div>
 	<!--END_FORM-->
 	
