@@ -1,0 +1,201 @@
+<!DOCTYPE>
+<html = lang="en"> 
+	<head>
+		<script src="./JS/one_page_website.js"></script>
+		<title> Futurama Fan Site </title>
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		
+	</head>	<meta charset="utf=8">
+	<body>
+	
+			<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#Video" id="link"><li>VIDEO</li></a>
+					<a href="#gallery" id="link"><li>GALLERY</li></a>
+					<a href="#contact" id="link"><li>CONTACT</li></a>
+				</ul>
+			</div>
+		</div>
+			<!--END NAV-->
+		
+	
+		<header>
+			<!--HEADER FOR MAIN BODY OF TEXT -->
+			<div id="home">
+				<section>
+					
+					<span style="font-style:italic; text-align:center;">
+					<h1> This is the primary webpage for all futurama fans</h1>
+				</section>
+			</div>
+			
+			<!--END OF HEADER FOR MAIN BODY TEXT -->
+			
+			<!--MAIN BODY OF TEXT -->
+			<div class="main_text">
+				<span style="text-align:center;">
+					<p> 
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					Basic text
+					<br>
+					<br>
+					</p>
+			</div>
+			
+			<!--END OF MAIN BODY OF TEXT -->
+			
+			
+			<!--YOUTUBE VIDEO-->
+			<div id="Video">
+				<iframe width="900" height="512"
+				src="https://www.youtube.com/embed/qfUPsKCDzqE?autoplay=1&mute=1&controls=1">
+				</iframe>
+			
+			
+			
+			<!--END OF YOUTUBE VIDEO-->
+		</header>
+		
+		<!--Images used to open lightbox -->
+			<div class="row">
+				<div class="column">
+					<img src="./Images/futurama_img1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="./Images/futurama_img2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="./Images/futurama_img3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="./Images/futurama_img4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="./Images/futurama_img5.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+				</div>
+			
+			</div>
+		
+			<!-- The Modal/Lightbox-->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 5</div>
+						<img src="./Images/futurama_img1.png" style="width: 100%;">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 5</div>
+						<img src="./Images/futurama_img2.png" style="width: 100%;">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 5</div>
+						<img src="./Images/futurama_img3.png" style="width: 100%;">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 5</div>
+						<img src="./Images/futurama_img4.png" style="width: 100%;">
+					</div>
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 5</div>
+						<img src="./Images/futurama_img5.png" style="width: 100%;">
+					</div>
+
+					<!--Next/previous controls-->
+					<a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+					<a class="next"	onclick="plusSlide(1)">&#10095;</a>
+
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+
+					<!--Thumbnail image controls-->
+					<div class="column">
+						<img class="demo" src="./Images/futurama_img1.png" onclick="currentSlide(1)" alt="Futurama">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./Images/futurama_img2.png" onclick="currentSlide(2)" alt="Futurama">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./Images/futurama_img3.png" onclick="currentSlide(3)" alt="Futurama">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./Images/futurama_img4.png" onclick="currentSlide(4)" alt="Futurama">
+					</div>
+
+					<div class="column">
+						<img class="demo" src="./Images/futurama_img5.png" onclick="currentSlide(5)" alt="Futurama">
+					</div>
+				</div>
+			</div>
+
+	<!--FORM-->	
+		<div class="inputs" id="contact">
+			<div class="inputs_text">
+				<form action="" method="post">
+					<br><br> First name: <input type="text" name="First_Name"> 
+					<br><br> Last name: <input type="text" name="Last_Name">
+					<br><br> Email address: <input type="text" name="Email"> 
+					<br><br> What was your favorite episode: <input type="text" name="Fav_episode">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	<!--END_FORM-->
+	
+	<!--FOOTER-->
+	<div>
+		www.FuturamaFanClub.fan &nbsp; | &nbsp; &copy; 2022
+	</div>
+	<!--END FOOTER-->
+	</body>
+</html>
